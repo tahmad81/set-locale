@@ -48,6 +48,7 @@ namespace SetLocale.Client.Web.Controllers
         [HttpGet]
         public ActionResult Index()
         {
+           ///Test comments from Tauseef. 
             return Redirect("/admin/apps");
         }
 
